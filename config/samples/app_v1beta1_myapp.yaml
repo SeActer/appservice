@@ -1,10 +1,10 @@
 apiVersion: app.seacter.io/v1beta1
 kind: MyApp
 metadata:
-  name: myapp-sample
+  name: myapp
 spec:
   # Add fields here
-  size: 2
+  size: 3
   image: nginx:1.7.9
   ports:
     - port: 80
