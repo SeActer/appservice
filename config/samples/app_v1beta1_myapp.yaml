@@ -4,7 +4,7 @@ metadata:
   name: myapp
 spec:
   # Add fields here
-  size: 3
+  size: 4
   image: nginx:1.7.9
   ports:
     - port: 80
