@@ -1,0 +1,12 @@
+apiVersion: app.seacter.io/v1beta1
+kind: MyApp
+metadata:
+  name: myapp-sample
+spec:
+  # Add fields here
+  size: 2
+  image: nginx:1.7.9
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30002

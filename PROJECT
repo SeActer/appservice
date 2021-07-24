@@ -1,0 +1,11 @@
+domain: seacter.io
+layout: go.kubebuilder.io/v2
+projectName: appservice
+repo: github.com/seacter/appservice
+resources:
+- group: app
+  kind: MyApp
+  version: v1beta1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
